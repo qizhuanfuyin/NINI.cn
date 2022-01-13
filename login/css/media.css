@@ -1,0 +1,12 @@
+@media screen and (max-width:475px) {
+	.yjbd ul li {
+	    width: 90%;
+	}
+	.yjbd_box{
+		width: 100%;
+	}
+	
+	.btn_tj{
+		width: 45%;
+	}
+}

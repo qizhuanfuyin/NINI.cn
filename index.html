@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>首页</title>
+		<style>
+			body {
+				font-size: 14px;
+			}
+		</style>
+		<link rel="stylesheet" href="./css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/media.css" />
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+	</head>
+
+	<body>
+		<section class="header">
+			<div class="header_box">
+				<div class="header_left">
+					<a class="logo" href="./index.html"></a>
+				</div>
+				<div class="header_center">
+					<div class="search">
+						<input type="text" class="ssl" />
+						<div class="btn_ssl"></div>
+					</div>
+				</div>
+				<div class="header_right">
+					<a href="./login/login.html">
+						<div class="header_img">
+							<img src="./img/header_img.webp" alt="">
+						</div>
+					</a>
+				</div>
+			</div>
+		</section>
+		<!-- 导航条 -->
+		<div class="meun">
+			<ul>
+				<li>
+					<a class="on" href="./index.html">首页</a>
+				</li>
+				<li>
+					<a href="./tj/tj.html">每日推荐</a>
+				</li>
+				<li>
+					<a href="./zjgx/zjgx.html">最新更新</a>
+				</li>
+				<li>
+					<a href="./fl/fl.html">目录</a>
+				</li>
+				<li>
+					<a href="./zx/zx.html">资讯</a>
+				</li>
+				<li>
+					<a href="./fj/fj.html">番剧</a>
+				</li>
+				<li>
+					<a href="./dy/dy.html">电影</a>
+				</li>
+				<li>
+					<a href="./tv/tv.html">电视剧</a>
+				</li>
+			</ul>
+		</div>
+		<section class="main">
+			<!-- 轮播图 -->
+			<div class="rotation">
+				<div class="swiper-container">
+				    <div class="swiper-wrapper">
+				        <div class="swiper-slide">
+							<a href="./xqy/xqy.html">
+								<img src="./img/lfzka.png" >
+							</a>
+						</div>
+				        <div class="swiper-slide">
+							<a href="./xqy/xqy.html">
+							<img src="./img/banner.png" >
+							</a>
+						</div>
+				        <div class="swiper-slide">
+							<a href="./xqy/xqy.html">
+							<img src="./img/banner01.png" >
+							</a>
+						</div>
+				        <div class="swiper-slide">
+							<a href="./xqy/xqy.html">
+							<img src="./img/banner02.png" >
+							</a>
+						</div>
+				    </div>
+				    <!-- Add Pagination -->
+				    <div class="swiper-pagination"></div>
+				    <!-- Add Arrows -->
+				    <div class="swiper-button-next"></div>
+				    <div class="swiper-button-prev"></div>
+				</div>
+			</div>
+			<!-- 时间表 -->
+			<div class="time_table">
+				<div class="time_select">
+					<h1>时间表</h1>
+					<ul id="tab">
+						<li onclick="changeWeek(0)">
+							<a id="time0" href="javascript:void(0);" class="check">最新</a>
+						</li>
+						<li onclick="changeWeek(1)">
+							<a id="time1" href="javascript:void(0);">周一</a>
+						</li>
+						<li onclick="changeWeek(2)">
+							<a id="time2" href="javascript:void(0);">周二</a>
+						</li>
+						<li onclick="changeWeek(3)">
+							<a id="time3" href="javascript:void(0);">周三</a>
+						</li>
+						<li onclick="changeWeek(4)">
+							<a id="time4" href="javascript:void(0);">周四</a>
+						</li>
+						<li onclick="changeWeek(5)">
+							<a id="time5" href="javascript:void(0);">周五</a>
+						</li>
+						<li onclick="changeWeek(6)">
+							<a id="time6" href="javascript:void(0);">周六</a>
+						</li>
+						<li onclick="changeWeek(7)">
+							<a id="time7" href="javascript:void(0);">周日</a>
+						</li>
+					</ul>
+				</div>
+				<div id="tabList" class="time_content">
+
+				</div>
+			</div>
+			<!-- 每日推荐 -->
+			<div class="tuijian">
+				<div class="tuijian_left_box">
+					<div class="tj_left_top">
+						<h1>每日推荐</h1>
+						<div class="tj_box">
+							<div class="film_box">
+								<a href="./xqy/xqy.html">
+									<div class="film_img">
+										<img src="./img/02.jpg" alt="">
+									</div>
+									<p>灰色的乐园</p>
+								</a>
+							</div>
+							<div class="film_box">
+								<a href="./xqy/xqy.html">
+									<div class="film_img">
+										<img src="./img/acg/fe8fdab280e869b3a0bc42dd70b94b33.jpeg" alt="">
+									</div>
+									<p>甜心战士Universe</p>
+								</a>
+							</div>
+							<div class="film_box">
+								<a href="./xqy/xqy.html">
+									<div class="film_img">
+										<img src="./img/acg/H04d5080f5d2e49d5a03ef9eccd57662cU.jpg" alt="">
+									</div>
+									<p>少女爱上姐姐</p>
+								</a>
+							</div>
+							<div class="film_box">
+								<a href="./xqy/xqy.html">
+									<div class="film_img">
+										<img src="./img/acg/H1c81c2a7246d447cbcf363d0514a30499.jpg" alt="">
+									</div>
+									<p>棺姬嘉依卡</p>
+								</a>
+							</div>
+							<div class="film_box">
+								<a href="./xqy/xqy.html">
+									<div class="film_img">
+										<img src="./img/acg/H26ccbe88fcfd49d6be4f7368cd259841f.jpg" alt="">
+									</div>
+									<p>环战公主</p>
+								</a>
+							</div>
+							<div class="film_box">
+								<a href="./xqy/xqy.html">
+									<div class="film_img">
+										<img src="./img/acg/H64739602fb584ebd857ecdbb61bfa3cco.jpg" alt="">
+									</div>
+									<p>黑之宣告</p>
+								</a>
+							</div>
+							<div class="film_box">
+								<a href="./xqy/xqy.html">
+									<div class="film_img">
+										<img src="./img/acg/H25272aa47f01469498d7fe1f070378f8l.jpg" alt="">
+									</div>
+									<p>玛娜利亚魔法学院</p>
+								</a>
+							</div>
+							<div class="film_box">
+								<a href="./xqy/xqy.html">
+									<div class="film_img">
+										<img src="./img/acg/H37c10bd0700741c9b6ab99f26884cf65W.jpg" alt="">
+									</div>
+									<p>魔女日常</p>
+								</a>
+							</div>
+							<div class="film_box">
+								<a href="./xqy/xqy.html">
+									<div class="film_img">
+										<img src="./img/acg/H55c5b9ea81b14ed885dddd0b80830290g.jpg" alt="">
+									</div>
+									<p>在世界尽头咏唱恋曲的少女YU-NO</p>
+								</a>
+							</div>
+							<div class="film_box">
+								<a href="./xqy/xqy.html">
+									<div class="film_img">
+										<img src="./img/acg/H7fff380d08a74534a7d2a70c7240d0d8l.jpg" alt="">
+									</div>
+									<p>哥布林杀手</p>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="tj_left_top">
+						<h1>最近更新</h1>
+						<div class="tj_box">
+							<div class="film_box">
+								<a href="./xqy/xqy.html">
+									<div class="film_img"><img src="./img/acg2/008kBpBlgy1grtfnct4y4j304605s0t5.jpg"
+											alt=""></div>
+									<p>博人传 火影忍者新时代</p>
+								</a>
+							</div>
+							<div class="film_box">
+								<a href="./xqy/xqy.html">
+									<div class="film_img"><img src="./img/acg2/008kBpBlgy1gt7gsczbqjj304605sjrh.jpg"
+											alt=""></div>
+									<p>半妖的夜叉姬 第二季</p>
+								</a>
+							</div>
+							<div class="film_box">
+								<a href="./xqy/xqy.html">
+									<div class="film_img"><img src="./img/acg2/008kBpBlgy1gu3z8cbmeaj604605s74f02.jpg"
+											alt=""></div>
+									<p>鲁邦三世 PART6</p>
+								</a>
+							</div>
+							<div class="film_box">
+								<a href="./xqy/xqy.html">
+									<div class="film_img"><img src="./img/acg2/008kBpBlgy1gu604n4jytj604605swem02.jpg"
+											alt=""></div>
+									<p>假面骑士Revice</p>
+								</a>
+							</div>
+							<div class="film_box">
+								<a href="./xqy/xqy.html">
+									<div class="film_img"><img src="./img/acg2/008kBpBlgy1gubnznel79j604605sweg02.jpg"
+											alt=""></div>
+									<p>境界触发者 第三季</p>
+								</a>
+							</div>
+							<div class="film_box">
+								<a href="./xqy/xqy.html">
+									<div class="film_img"><img src="./img/acg2/008kBpBlgy1guboedw3c4j604605saa502.jpg"
+											alt=""></div>
+									<p>数码宝贝 幽灵游戏</p>
+								</a>
+							</div>
+							<div class="film_box">
+								<a href="./xqy/xqy.html">
+									<div class="film_img"><img src="./img/acg2/008kBpBlgy1gvrslvh5mij304605swek.jpg"
+											alt=""></div>
+									<p>少女前线</p>
+								</a>
+							</div>
+							<div class="film_box">
+								<a href="./xqy/xqy.html">
+									<div class="film_img"><img src="./img/acg2/008kBpBlgy1gw9318h7p5j304605smx8.jpg"
+											alt=""></div>
+									<p>怪人开发部的黑井津</p>
+								</a>
+							</div>
+							<div class="film_box">
+								<a href="./xqy/xqy.html">
+									<div class="film_img"><img src="./img/acg2/008kBpBlgy1gwltvpicqpj304605s3yl.jpg"
+											alt=""></div>
+									<p>锖色护甲</p>
+								</a>
+							</div>
+							<div class="film_box">
+								<a href="./xqy/xqy.html">
+									<div class="film_img"><img src="./img/acg2/008kBpBlgy1gwn5ss4l8vj304605s3yl.jpg"
+											alt=""></div>
+									<p>进击的巨人 最终季 Part.2</p>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tuijian_right_box">
+					<div class="tj_right_top">
+						<h1>热播列表</h1>
+						<div class="zgx">
+							<ul>
+								<li>
+									<a href="./xqy/xqy.html" class="gengxin_name">异世界食堂 第二季</a>
+									<a href="./xqy/xqy.html" class="gengxin_jishu">第24集(完结)</a>
+								</li>
+								<li>
+									<a href="./xqy/xqy.html" class="gengxin_name">无职转生 ～在异世界认真地活下去～ 第二季</a>
+									<a href="./xqy/xqy.html" class="gengxin_jishu">第23集(完结)</a>
+								</li>
+								<li>
+									<a href="./xqy/xqy.html" class="gengxin_name">月与莱卡与吸血公主</a>
+									<a href="./xqy/xqy.html" class="gengxin_jishu">第12集(完结)</a>
+								</li>
+								<li>
+									<a href="./xqy/xqy.html" class="gengxin_name">加油！同期酱</a>
+									<a href="./xqy/xqy.html" class="gengxin_jishu">第12集</a>
+								</li>
+								<li>
+									<a href="./xqy/xqy.html" class="gengxin_name">星期一的丰满 第二季</a>
+									<a href="./xqy/xqy.html" class="gengxin_jishu">第24集(完结)</a>
+								</li>
+								<li>
+									<a href="./xqy/xqy.html" class="gengxin_name">Love Live! Superstar!!</a>
+									<a href="./xqy/xqy.html" class="gengxin_jishu">第12集(完结)</a>
+								</li>
+
+								<li>
+									<a href="./xqy/xqy.html" class="gengxin_name">吸血鬼马上死</a>
+									<a href="./xqy/xqy.html" class="gengxin_jishu">第24集(完结)</a>
+								</li>
+								<li>
+									<a href="./xqy/xqy.html" class="gengxin_name">异世界食堂 第二季</a>
+									<a href="./xqy/xqy.html" class="gengxin_jishu">第12集(完结)</a>
+								</li>
+								<li>
+									<a href="./xqy/xqy.html" class="gengxin_name">逆转世界的电池少女</a>
+									<a href="./xqy/xqy.html" class="gengxin_jishu">第12集(完结)</a>
+								</li>
+								<li>
+									<a href="./xqy/xqy.html" class="gengxin_name">卡片战斗先导者overDress 第二季</a>
+									<a href="./xqy/xqy.html" class="gengxin_jishu">第24集(完结)</a>
+								</li>
+								<li>
+									<a href="./xqy/xqy.html" class="gengxin_name">佐佐木与宫野</a>
+									<a href="./xqy/xqy.html" class="gengxin_jishu">00:00 第01集</a>
+								</li>
+								<li>
+									<a href="./xqy/xqy.html" class="gengxin_name">进击的巨人 最终季 Part.2</a>
+									<a href="./xqy/xqy.html" class="gengxin_jishu">01:35 第1集</a>
+								</li>
+								<li>
+									<a href="./xqy/xqy.html" class="gengxin_name">暗芝居 第十季</a>
+									<a href="./xqy/xqy.html" class="gengxin_jishu">02:35 第1集</a>
+								</li>
+								<li>
+									<a href="./xqy/xqy.html" class="gengxin_name">TRIBE NINE</a>
+									<a href="./xqy/xqy.html" class="gengxin_jishu">21:30 第1集</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="tj_right_bottom">
+						<h1>最近更新</h1>
+						<div class="zgx">
+							<ul>
+								<li>
+									<a href="./xqy/xqy.html" class="gengxin_name">自称贤者弟子的贤者</a>
+									<a href="./xqy/xqy.html" class="gengxin_jishu">2022-01-11</a>
+								</li>
+								<li>
+									<a href="./xqy/xqy.html" class="gengxin_name">与变成了异世界美少女的大叔一起冒险</a>
+									<a href="./xqy/xqy.html" class="gengxin_jishu">2022-01-11</a>
+								</li>
+								<li>
+									<a href="./xqy/xqy.html" class="gengxin_name">天才王子的赤字国家振兴术</a>
+									<a href="./xqy/xqy.html" class="gengxin_jishu">2022-01-11</a>
+								</li>
+								<li>
+									<a href="./xqy/xqy.html" class="gengxin_name">少女与战车最终章</a>
+									<a href="./xqy/xqy.html" class="gengxin_jishu">2022-01-11</a>
+								</li>
+								<li>
+									<a href="./xqy/xqy.html" class="gengxin_name">幻想三国志-天元灵心记-</a>
+									<a href="./xqy/xqy.html" class="gengxin_jishu">2022-01-11</a>
+								</li>
+								<li>
+									<a href="./xqy/xqy.html" class="gengxin_name">食锈未世录</a>
+									<a href="./xqy/xqy.html" class="gengxin_jishu">2022-01-10</a>
+								</li>
+								<li>
+									<a href="./xqy/xqy.html" class="gengxin_name">TRIBE NINE</a>
+									<a href="./xqy/xqy.html" class="gengxin_jishu">2022-01-10</a>
+								</li>
+								<li>
+									<a href="./xqy/xqy.html" class="gengxin_name">公主连结!Re: Dive第二季</a>
+									<a href="./xqy/xqy.html" class="gengxin_jishu">2022-01-10</a>
+								</li>
+								<li>
+									<a href="./xqy/xqy.html" class="gengxin_name">佐佐木与宫野</a>
+									<a href="./xqy/xqy.html" class="gengxin_jishu">2022-01-10</a>
+								</li>
+								<li>
+									<a href="./xqy/xqy.html" class="gengxin_name">鬼灭之刃第二季(游郭篇)</a>
+									<a href="./xqy/xqy.html" class="gengxin_jishu">2022-01-10</a>
+								</li>
+								<li>
+									<a href="./xqy/xqy.html" class="gengxin_name">假面骑上Revice</a>
+									<a href="./xqy/xqy.html" class="gengxin_jishu">2022-01-09</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="ft">
+			<p>李广达</p>
+			<p>数媒2121班</p>
+			<p>210605212158</p>
+		</footer>
+		<audio id="myAudio" loop="loop" data-keepplaying="" preload="" autoplay="autoplay" >
+			<source src="./autio/Oturans%20-%20Clannad%20-%20冈崎汐（Oturans%20remix）.mp3" type="audio/mpeg">
+			您的浏览器不支持 audio 元素。
+		</audio>
+	</body>
+	<script src="./js/flexible.js"></script>
+	<script src="./js/tab.js"></script>
+	<script type="text/javascript">
+		let a = document.getElementById("myAudio");
+		window.onclick = function() {
+			a.play()
+		}
+	</script>
+	<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		var swiper = new Swiper('.swiper-container', {
+		    pagination: '.swiper-pagination',
+		    nextButton: '.swiper-button-next',
+		    prevButton: '.swiper-button-prev',
+		    paginationClickable: true,
+		    spaceBetween: 30,
+		    centeredSlides: true,
+		    autoplay: 2500,
+		    autoplayDisableOnInteraction: false
+		});
+	</script>
+</html>

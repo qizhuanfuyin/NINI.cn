@@ -1,0 +1,122 @@
+@media screen and (max-width:765px) {
+	.main {
+		width: 98%;
+		padding: 0;
+	}
+	
+	h1{
+		margin-top: 0;
+	}
+	
+	.element: : -webkit-scrollbar {display : none}
+	
+	.time_table{
+		margin: 0;
+	}
+	
+	.header_box{
+		width: 100%;
+	}
+	
+	.ssl {
+		width: 100%;
+		padding: .5rem;
+	}
+
+	.header {
+		min-height: 70px;
+	}
+
+	.rotation {
+		display: none;
+	}
+
+	.meun {
+		display: block;
+		width: 98%;
+		/* height: 50px; */
+		margin: 0 auto;
+		/* margin-top: 10px; */
+		/* margin-bottom: 10px; */
+		padding: 0;
+		background: rgba(255, 255, 256, .6);
+	}
+
+	.meun ul li a{
+		font-size: 12px;
+	}
+	.meun ul {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		overflow-y: auto;
+		white-space: nowrap;
+	}
+
+	.meun_min {
+		display: block;
+	}
+
+	.time_content {
+		width: 90%;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		border-bottom: solid 1px #ccc;
+		padding-left: 10px;
+	}
+
+	.time_select {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.tuijian {
+		width: 90%;
+		margin: 0 auto;
+		display: flex;
+		flex-wrap: wrap !important;
+	}
+
+	.tj_box {
+		justify-content: space-between;
+		border-bottom: solid 1px #ccc;
+	}
+
+	.zgx li {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+}
+
+@media screen and (max-width:475px) {
+	.time_box{
+		margin: 0px 0px 20px 0px;
+	}
+	.time_item a{
+		width: 90px;
+	}
+	.film_img {
+	    width: 150px;
+	    height: 195px;
+	}
+	
+	.time_content{
+		width: 96%;
+	}
+	
+	h1{
+		padding-top:10px;
+	}
+}
+
+.logo {
+	display: inline-block;
+	width: 100%;
+	height: 40px;
+	background: url(../img/logo1.png) no-repeat;
+}

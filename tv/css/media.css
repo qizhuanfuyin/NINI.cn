@@ -1,0 +1,28 @@
+@media screen and (max-width: 765px) {
+	.dy_main{
+		width: 100%;
+	}
+	
+	.dy_img{
+		width: 220px;
+	}
+	
+	.hot_box ul {
+	    display: flex;
+	    overflow: auto;
+	}
+	
+	.hot_box{
+		margin-left: 5px;
+	}
+}
+
+@media screen and (max-width: 475px) {
+	.dy_img{
+		width: 176px;
+		height: 100px;
+	}
+	.dy_box{
+		margin: 0;
+	}
+}

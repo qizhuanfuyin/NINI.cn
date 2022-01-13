@@ -1,0 +1,30 @@
+@media screen and (max-width: 765px) {
+	.film_box {
+		margin-right: 14px;
+	}
+	.film_img {
+	    width: 136px;
+	    height: 181px;
+	}
+	.fl_left{
+		margin-left: 10px;
+		margin-top: 10px;
+	}
+	.fl_right{
+		margin-top: 10px;
+	}
+}
+
+@media screen and (max-width:475px) {
+	.main{
+		width: 100%;
+	}
+	.film_img {
+	    width: 106px;
+	    height: 151px;
+	}
+	.film_box {
+		width: 50%;
+	    margin-right: 0;
+	}
+}

@@ -1,0 +1,97 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+.mask {
+	display: none;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100px;
+	background: rgba(0, 0, 0, .4);
+	overflow: hidden;
+	border-radius: 8px;
+}
+
+.mask span {
+	position: absolute;
+	bottom: 2%;
+	left: 5%;
+	color: #fff;
+}
+
+.bangumi_img {
+	display: block;
+	overflow: hidden;
+	transition: all .3s;
+}
+
+.new_bangumi ul{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.new_bangumi ul li {
+	width: 160px;
+	margin: 0 10px 20px 0;
+	height: 148px;
+	/* float: left; */
+	overflow: hidden;
+	cursor: pointer;
+	font-size: 12px;
+	position: relative;
+}
+
+.new_bangumi ul li .bangumi_img {
+	width: 100%;
+	height: 100px;
+	border-radius: 5px;
+}
+
+.bangumi_name {
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	padding-top: 8px;
+	overflow: hidden;
+	transition: all .3s;
+}
+
+.bangumi_num {
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(255,255,255,.2);
+	height: 20px;
+	line-height: 20px;
+	width: 100%;
+	transition: all .3s;
+	color: #99A2AA;
+}
+
+.new_bangumi ul li:hover .bangumi_num {
+	height: 0;
+}
+
+.new_bangumi ul li:hover .bangumi_name {
+	height: 40px;
+	color: #00B5E7;
+}
+
+.new_bangumi ul li:hover .mask {
+	display: block;
+}
+
+.bangumi_num {
+	background-image: url(../../img/zbf.png);
+	background-repeat: no-repeat;
+	background-position: 0px 3px;
+	padding-left: 16px;
+}
+

@@ -1,0 +1,10 @@
+@media screen and (max-width: 765px) {
+	.zx_box {
+		width: 98%;
+		margin: 0 auto;
+	}
+
+	.zx_box ul li {
+		width: 100%;
+	}
+}

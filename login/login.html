@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录页</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="./css/login.css">
+	<link rel="stylesheet" type="text/css" href="../css/media.css"/>
+	<link rel="stylesheet" type="text/css" href="css/media.css"/>
+</head>
+
+<body>
+    <section class="header">
+        <div class="header_box">
+            <div class="header_left">
+               <a class="logo" href="../index.html"></a>
+            </div>
+            <div class="header_center">
+                <div class="search">
+                    <input type="text" class="ssl" />
+                    <div class="btn_ssl"></div>
+                </div>
+            </div>
+            <div class="header_right">
+                <a href="./login/login.html">
+                    <div class="header_img">
+                        <img src="../img/header_img.webp" alt="">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="main">
+        <div class="login_title">
+            <span class="login_name">登录</span>
+        </div>
+        <form action="../index.html" id="myForm" onsubmit="return loginYz()">
+			<div class="yjbd_box">
+				<div class="yjbd">
+				    <ul>
+				        <li>
+				            <input id="userName" type="text" class="user_name" placeholder="请输入你的用户名" />
+				        </li>
+						<li>
+							<span id="userTips"></span>
+						</li>
+				        <li>
+				            <input id="userPwd" type="password" class="user_name" placeholder="请输入你的密码" />
+				        </li>
+				        <li>
+				            <span id="pwdTips"></span>
+				        </li>
+				    </ul>
+				</div>
+				<div class="btn">
+				    <button type="submit" class="btn_tj">登录</button>
+				    <button class="btn_tj zc">注册</button>
+				</div>
+				<p class="xy">
+				    登录即代表你同意用户协议和隐私政策
+				</p>
+			</div>
+        </form>
+    </section>
+    <footer class="ft">
+        <p>制作者：李广达</p>
+        <p>班级：数媒2121班</p>
+        <p>学号：210605212158</p>
+    </footer>
+</body>
+<script src="../js/flexible.js"></script>
+<script src="./js/login.js"></script>
+</html>
